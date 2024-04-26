@@ -85,8 +85,10 @@ const App = () => {
             default:
                 break;
         }
-        setFirstNumber(currentNumber);
-        setOperation('');
+    }
+
+    const handleBackspace = () => {
+        setCurrentNumber(prev => prev.slice(0, -1));
     }
 
     return (
@@ -99,8 +101,8 @@ const App = () => {
                 <div className="keyboard">
                     <table className="keys">
                         <tr>
-                            <td colspan="2" className="highlight ac" onClick={handleClear}>AC</td>
-                            <td className="highlight"><img src="./bacskpace.svg" /></td>
+                            <td onClick={handleClear} colspan="2" className="highlight ac">AC</td>
+                            <td onClick={handleBackspace} className="highlight"><img src="./bacskpace.svg" /></td>
                             <td onClick={handleDivideNumber} className="highlight">/</td>
                         </tr>
 

@@ -1,8 +1,5 @@
-# React + Vite
+# Calculadora DIO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse é o projeto de uma Calculadora simples construída em React + Vite, fazendo uso de useStates e Styled Components, para um desafio do Curso de React da DIO.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Em breve, estarei atualizando ela para implementar novas funcionalidades que eu ainda não consegui fazer.

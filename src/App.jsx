@@ -128,7 +128,7 @@ const App = () => {
                         </tr>
 
                         <tr>
-                            <td>0</td>
+                            <td onClick={() => handleAddNumber(0)}>0</td>
                             <td onClick={() => handleAddNumber(".")}>.</td>
                             <td onClick={handleEquals} colspan="2" className="equal">=</td>
                         </tr>
